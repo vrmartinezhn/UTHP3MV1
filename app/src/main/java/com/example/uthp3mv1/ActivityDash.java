@@ -27,8 +27,8 @@ public class ActivityDash extends AppCompatActivity {
         btnagregar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(ActivityDash.this.MainActivity.class);
-                //startActivity(intent);
+                Intent intent = new Intent(ActivityDash.this, MainActivity.class);
+                startActivity(intent);
             }
         });
 
